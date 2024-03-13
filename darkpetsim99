@@ -46,7 +46,6 @@ Workspace.__THINGS.Orbs.ChildAdded:Connect(function(orb)
 end)
 
 collectOrbs() -- Collect orbs already present in the workspace
-        end
   	end    
 })
 
