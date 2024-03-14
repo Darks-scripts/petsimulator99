@@ -7,7 +7,7 @@ local MainTab = Window:MakeTab({
 	PremiumOnly = false
 })
 
-Tab:AddButton({
+MainTab:AddButton({
 	Name = "Remove egg animation",
 	Callback = function()
       		local Eggs = game.Players.LocalPlayer.PlayerScripts.Scripts.Game['Egg Opening Frontend']getsenv(Eggs).PlayEggAnimation = function() return end
