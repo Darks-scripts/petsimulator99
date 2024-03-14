@@ -90,4 +90,17 @@ game:GetService("ReplicatedStorage"):WaitForChild("Network"):WaitForChild("Ultim
   	end    
 })
 
+local UniversalTab = Window:MakeTab({
+	Name = "Tab 1",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+UniversalTab:AddButton({
+	Name = "SimpleSpyMobile",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/REDzHUB/RS/main/SimpleSpyMobile"))()
+  	end    
+})
+
 OrionLib:Init()
